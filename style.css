@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  animation: slideDown 0.6s ease-in-out;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(9, 40px);
+  grid-gap: 2px;
+  margin: 15px auto;
+  width: fit-content;
+}
+
+input.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+input.cell:focus {
+  background: #f3f9ff;
+  border-color: #4CAF50;
+}
+
+.btn {
+  margin: 8px;
+  padding: 10px 15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background: #45a049;
+}
+
+.btn.secondary {
+  background: #3498db;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(10px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+@keyframes slideDown {
+  from {opacity: 0; transform: translateY(-20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
