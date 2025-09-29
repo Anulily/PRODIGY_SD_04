@@ -33,4 +33,9 @@ python app.py
 
 screenshots:
 <br>
+<img width="575" height="779" alt="Image" src="https://github.com/user-attachments/assets/b2bb4d59-1b23-419f-b5a6-428f79f2a924" />
+
+<img width="588" height="767" alt="Image" src="https://github.com/user-attachments/assets/a81286b5-43aa-4605-b05d-0bac6f7b96dd" />
+
+<img width="565" height="810" alt="Image" src="https://github.com/user-attachments/assets/8d2e420b-7079-444d-a589-d6101e43a69b" />
 
